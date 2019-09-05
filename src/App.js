@@ -1,9 +1,12 @@
 import React from 'react';
+import Accordion from './state-drills/Accordion';
+import sections from './state-drills/sections';
 
 function App() {
+  console.log(sections)
   return (
     <main className='App'>
-      {/* content goes here */}
+      <div><Accordion sections={sections}/></div>
     </main>
   );
 }
